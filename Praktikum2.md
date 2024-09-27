@@ -1,4 +1,4 @@
-### Praktikum 2
+### Praktikum 2 aruanne
 
 Käesolevas praktikumis kasutasin esimest korda Linux keskkonda. Praktikumi lõpus lahendasin ma Linuxi käsurea käske kontrollivad ülesanded.
 
