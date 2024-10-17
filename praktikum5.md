@@ -16,3 +16,5 @@ tuleks kasutada: chmod a=rx skriptifail
 Igal kasutajal on omanimeline grupp, et tagada turvalisus, lihtsustada õiguste haldamist ning toetada privaatsust ja koostööd. See loob efektiivse ja struktureeritud lähenemise kasutajaõiguste ja failihaldamisele, mis on oluline igasugustes UNIX-põhistes süsteemides.
 
 Ül. 5-4
+Kataloogis: Kataloogi puhul on vaja r-x õigusi, et pääseda failini ja kuvada selle sisu.
+Failis: Failile peab olema antud r-- gruppi kuuluvatele kasutajatele, et nad saaksid sisu lugeda.
