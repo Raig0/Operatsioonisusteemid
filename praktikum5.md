@@ -18,3 +18,26 @@ Igal kasutajal on omanimeline grupp, et tagada turvalisus, lihtsustada õiguste 
 Ül. 5-4
 Kataloogis: Kataloogi puhul on vaja r-x õigusi, et pääseda failini ja kuvada selle sisu.
 Failis: Failile peab olema antud r-- gruppi kuuluvatele kasutajatele, et nad saaksid sisu lugeda.
+
+Ül. 5-5
+Setuid-õigus võimaldab programmil töötada faili omaniku õigustes, mitte kasutaja õigustes, kes seda käivitab. Seda kasutatakse juhul, kui programm vajab kõrgendatud õigusi, näiteks failidele ligipääsuks, millele tavakasutajal muidu pole õigust.
+
+Ül. 5-6
+Setuid-i kasutamine võib suurendada süsteemi turvariske, kui sellega antakse kasutajatele liigseid õigusi. Vigaste või ebaturvaliste setuid-programmide kaudu võivad ründajad saada süsteemi üle kontrolli. Setuid-i tuleks kasutada ettevaatlikult ja ainult seal, kus see on hädavajalik.
+
+Ül. 5-7
+Peeter(faili looja), opetaja(kataloogi looja), root-kasutaja
+
+Ül. 5-8
+ file: hinded.txt
+ owner: opetaja
+ group: opetaja
+user::rw-
+group::rw-
+group:direktor:rw-
+mask::rw-
+other::---
+
+Ül. 5-8
+Kui chattr +i on määratud, siis keegi ei saa faili muuta ega kustutada. 
+Faili saab kustutada: (sudo chattr -i testfail-2) ning siis (rm testfail-2)
