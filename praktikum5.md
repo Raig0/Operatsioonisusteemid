@@ -1,4 +1,5 @@
 # Praktikum 5
+Käesolevas praktikumis sain ülevaate Unixi failiõigustest. Lõin erinevaid kasutajaid ning andsin neile õiguseid.
 
 Ül. 5-1
 a) Kaustal r-x õigused. Failil r--
