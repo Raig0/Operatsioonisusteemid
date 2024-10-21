@@ -1,23 +1,17 @@
 # Praktikum 5
 
-
 Ül. 5-1
-a) Kaustal /tmp/kaust peavad omanikul olema õigused: r-x (lugemiseks ja sisenemiseks)
-Failil minufail.txt peavad omanikul olema õigused: r-- (lugemiseks)
-b) Kataloogis /tmp/kaust oleva faili minufail.txt kustutamiseks:
-Kaustal /tmp/kaust peavad omanikul olema õigused: rwx (lugemiseks, kirjutamiseks ja sisenemiseks)
-Failil minufail.txt ei ole vaja õigusi kustutamiseks, kuna kustutamine sõltub ainult kausta õigustest.
+a) Kaustal r-x õigused. Failil r--
+b) Kaustal rwx õigused. Faili kustutamiseks ei ole eraldi õiguseid vaja.
 
 Ül. 5-2
-Käsk chmod a=x skriptifail annab ainult täitmisõiguse, kuid shelli skripti käivitamiseks on vaja ka lugemisõigust. Shell peab suutma skripti sisu lugeda, et käske täita. Ilma lugemisõiguseta ei saa skript töötada.
-tuleks kasutada: chmod a=rx skriptifail
+Käsk chmod a=x skriptifail annab ainult käivitamisõiguse, kuid on vaja ka lugemisõigust.
 
 Ül. 5-3
 Igal kasutajal on omanimeline grupp, et tagada turvalisus, lihtsustada õiguste haldamist ning toetada privaatsust ja koostööd. See loob efektiivse ja struktureeritud lähenemise kasutajaõiguste ja failihaldamisele.
 
 Ül. 5-4
-Kataloogis: Kataloogi puhul on vaja r-x õigusi, et pääseda failini ja kuvada selle sisu.
-Failis: Failile peab olema antud r-- gruppi kuuluvatele kasutajatele, et nad saaksid sisu lugeda.
+On vaja r-x õiguseid.
 ![image](https://github.com/user-attachments/assets/219419c5-4513-4b5c-83e0-0da0fd43a24d)
 (peeter asemel on raigo1)
 
@@ -29,7 +23,7 @@ Setuid-õigus võimaldab programmil töötada faili omaniku õigustes, mitte kas
 Setuid-i kasutamine võib suurendada süsteemi turvariske, kui sellega antakse kasutajatele liigseid õigusi. Vigaste või ebaturvaliste setuid-programmide kaudu võivad ründajad saada süsteemi. Setuid-i tuleks kasutada ettevaatlikult ja ainult seal, kus see on hädavajalik.
 
 Ül. 5-7
-Peeter(faili looja), opetaja(kataloogi looja), root-kasutaja
+raigo1, opetaja, root
 
 Ül. 5-8
  file: hinded.txt
