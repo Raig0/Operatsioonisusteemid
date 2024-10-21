@@ -1,5 +1,5 @@
 # Praktikum 5
-jojo tegin praktikumi
+
 
 Ül. 5-1
 a) Kaustal /tmp/kaust peavad omanikul olema õigused: r-x (lugemiseks ja sisenemiseks)
