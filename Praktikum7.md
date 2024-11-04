@@ -7,7 +7,13 @@
 3. Usaldusväärsus ja andmete terviklikkus: GPT salvestab partitsioonitabeli mitmes kohas kettal ja sisaldab sisseehitatud veakontrolli, mis aitab andmeid paremini kaitsta ja vigu avastada.
 
 3) https://kodu.ut.ee/~raigoleesment/opsys/hdd.png
+
+4) <img width="295" alt="pilt1" src="https://github.com/user-attachments/assets/994e11d3-c031-42ad-a42d-2ae027f8a5c1">
+
   
 5) Mida mõjutasid mount-käsu parameetrid -o ro ja -t auto? - Parameeter -o ro määrab, et seade haagitakse ainult lugemiseks (read-only), mistõttu ei saa andmeid muuta. Parameeter -t auto laseb operatsioonisüsteemil automaatselt tuvastada ja valida sobiva failisüsteemi tüübi, mida kasutada.
 
 6) Leidke mount-käsu väljundist üles, mis väärtusega asendas Ubuntu auto-parameetri. - Asendati exfat-iga.
+
+7) <img width="364" alt="pilt2" src="https://github.com/user-attachments/assets/e39676a4-05b5-413c-b3c7-bff3a11d01e9">
+
