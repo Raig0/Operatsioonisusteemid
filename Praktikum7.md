@@ -1,3 +1,13 @@
 # Praktikum 7
 
-1)
+1) Andmekandjad vajavad lähtestamist, et eemaldada vanad andmed, lahendada võimalikke tõrkeid ja luua uus failisüsteem, mis teeb need uuesti kasutuskõlblikuks.
+
+2) 1. Rohkem partitsioone: GPT toetab kuni 128 partitsiooni ilma loogilisi sektsioone vajamata, samas kui MBR piirab tavaliselt 4 primaarse partitsiooniga.
+2. Suurem ketta maht: GPT võimaldab hallata kettaid, mille maht on üle 2 TB, samas kui MBR toetab maksimaalselt 2 TB suuruseid kettaid.
+3. Usaldusväärsus ja andmete terviklikkus: GPT salvestab partitsioonitabeli mitmes kohas kettal ja sisaldab sisseehitatud veakontrolli, mis aitab andmeid paremini kaitsta ja vigu avastada.
+
+3) https://kodu.ut.ee/~raigoleesment/opsys/hdd.png
+  
+5) Mida mõjutasid mount-käsu parameetrid -o ro ja -t auto? - Parameeter -o ro määrab, et seade haagitakse ainult lugemiseks (read-only), mistõttu ei saa andmeid muuta. Parameeter -t auto laseb operatsioonisüsteemil automaatselt tuvastada ja valida sobiva failisüsteemi tüübi, mida kasutada.
+
+6) Leidke mount-käsu väljundist üles, mis väärtusega asendas Ubuntu auto-parameetri. - Asendati exfat-iga.
