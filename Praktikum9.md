@@ -1,5 +1,4 @@
-# Praktikum9
-Käesolevas praktikumis lahendasin ülesandeid windowsis ja linuxis. Õppisin protsesside uurimist. <br>
+# Praktikum9 <br>
 
 
 |Küsimus|Linux|Windows|Linuxis kasutatud käsklus|Windowsis kasutatud tööriist|
