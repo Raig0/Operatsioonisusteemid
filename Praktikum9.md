@@ -1,6 +1,5 @@
 # Praktikum 9 <br>
-
-
+Praktikumis vastasin erinevatele küsimustele Linuxi ning Windowsi kohta. Käisin läbi teema Ressursihaldus.
 |Küsimus|Linux|Windows|Linuxis kasutatud käsklus|Windowsis kasutatud tööriist|
 |---|---|---|---|---|
 |Mitu protsessi kokku arvutis käib? | 216 | 180 | ps -aux | wc -l
@@ -14,7 +13,7 @@
 |Kui palju füüsilisest mälust on vaba ja kui palju hõivatud? | 860Mi hõivatud, 1,8Gi vaba | 10300MB kasutusel, 6000mb vaba | free -h | Resource monitor
 |Kui palju on põhikettal vaba ruumi mahult (GB) ja protsentuaalselt? | 11.1GB, 46% | 76GB, 16% | df -h | This PC - Devices and drives
 |Milline on kõige suurem arvutis olev fail ja kõige rohkem andmemahtu hõivav kaust? | | Riot Games kaust, hiberfil.sys| | Windirstat
-|millisele CPU alamtegevusele kulub enim protsessori aega kummagi käsu puhul? | 1) 98% ning 2) 96%  sy | | sha1sum /dev/zero sha1sum /dev/zero, sha1sum /dev/urandom sha1sum /dev/urandom |
+|Millisele CPU alamtegevusele kulub enim protsessori aega kummagi käsu puhul? | 1) 98% ning 2) 96%  sy | | sha1sum /dev/zero sha1sum /dev/zero, sha1sum /dev/urandom sha1sum /dev/urandom |
 |Milline protsess kõige rohkem salvestusseadmele kirjutab? | | System | | Resource monitor
 |Millisesse faili eelmise küsimuse protsess kõige rohkem kirjutab? | | pagefile.sys | | Process monitor
 |Milline protsess kõige rohkem salvestusseadmelt loeb? | | svchost.exe | | Resource monitor
@@ -24,12 +23,12 @@
 <br>
 
 
-#### 12. <br> 
+ 12. 
 ![image](https://github.com/user-attachments/assets/b8612d14-8eb9-4d57-8b21-1e9f8376b959)
 
 
 
 
-#### 14. <br>
+14.
 <img width="640" alt="pilt1" src="https://github.com/user-attachments/assets/7be1bf45-c7c7-48ce-8e71-f4e3c5ff4bfd">
 
