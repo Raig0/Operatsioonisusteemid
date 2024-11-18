@@ -29,4 +29,7 @@
 
 
 
+
 #### 14. <br>
+<img width="640" alt="pilt1" src="https://github.com/user-attachments/assets/7be1bf45-c7c7-48ce-8e71-f4e3c5ff4bfd">
+
