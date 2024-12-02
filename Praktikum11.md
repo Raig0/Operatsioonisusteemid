@@ -14,7 +14,7 @@
 #### Ül.3(a) Youtube kasutab ESF serverit.
 ![pilt3 1](https://github.com/user-attachments/assets/2faf91bd-9983-460e-8483-c6a13ec503ff)
 
-#### Ül.3(b)
+#### Ül.3(b) Veakood 404 Not Found tähendab, et server ei suutnud leida taotletud ressurssi.
 ![pilt3 2](https://github.com/user-attachments/assets/e10afb95-e193-458a-9aec-835ee0cdc55e)
 
 #### Ül.4
