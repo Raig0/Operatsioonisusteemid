@@ -1,11 +1,5 @@
-#!/bin/bash
-
-laiend_A =$1
-laiend_B =$2
-
-for i in $(ls); do
-    if [ ${i##*.} = $laiend_A ]; then
-        uuendatud=${i%.*}.$laiend_B
-        mv $i $uuendatud
-    fi
-done
+./ülesanne4.sh: line 3: laiend_A: command not found
+./ülesanne4.sh: line 4: laiend_B: command not found
+./ülesanne4.sh: line 7: [: sh: unary operator expected
+./ülesanne4.sh: line 7: [: txt: unary operator expected
+./ülesanne4.sh: line 7: [: sh: unary operator expected
