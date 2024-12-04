@@ -1,5 +1,12 @@
-./ülesanne4.sh: line 3: laiend_A: command not found
-./ülesanne4.sh: line 4: laiend_B: command not found
-./ülesanne4.sh: line 7: [: sh: unary operator expected
-./ülesanne4.sh: line 7: [: txt: unary operator expected
-./ülesanne4.sh: line 7: [: sh: unary operator expected
+#!/bin/bash
+
+IFS=$'\n'
+protsess=$1
+
+for i in $(ps -A); do
+    if echo " "$i | tr -s ' ' | cut -d ' ' -f5 = $protsess
+    then
+        echo $i | cut -d ' ' -f5
+        echo $i | cut -d ' ' -f2
+    fi
+done
