@@ -1,15 +1,3 @@
-#!/bin/bash
+aigo@leesment24-VirtualBox:~$ ./ülesanne5.sh kate
+bash: ./ülesanne5.sh: No such file or directory
 
-IFS=$'\n'
-protsess=$1
-
-for i in $(ps -A); do
-    i=$(echo " $i" | tr -s ' ')
-    pid=$(echo $i | cut -d ' ' -f1)
-    pname=$(echo $i | cut -d ' ' -f2-)
-
-    if [ $pname = $protsess ]; then
-        echo $pid
-        echo $pname
-    fi
-done
