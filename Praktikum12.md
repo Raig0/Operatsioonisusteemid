@@ -1,5 +1,7 @@
 # Praktikum 12
 
+Käesolevas praktikumis tegelesin Linuxis skriptimisega. Praktikumi lõpus lasin AI-l ühe ülesande lahendada.
+
 Ülesanne 3)
 ```
 #!/bin/sh
