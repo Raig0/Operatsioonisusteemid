@@ -1,6 +1,6 @@
 # Praktikum 13
 
-Tegin tööd.
+Käesolevas praktikumis kirjutasin skripti Windowsis. Skripti tulemused kirjutati faili.
 
 ```
 # Funktsioon tulemuste väljastamiseks
