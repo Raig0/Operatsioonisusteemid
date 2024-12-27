@@ -1,5 +1,9 @@
 # Praktikum 15
+
+Käesolevas praktikumis õppisin optimeerimist Linuxis ja Windowsis. Praktikumi lõpus vabastasin ressursid.
+
 #### Ülesanne 1
+Apache2 on veebiserver, mis edastab veebilehti ja faile. See on paindlik, kuid võib olla ressursimahukas ja keeruline, eriti lihtsate veebisaitide jaoks
 
 ![Screenshot 2024-12-21 202819](https://github.com/user-attachments/assets/6f1ef493-edac-4388-a165-37fc2d33e770)
 
