@@ -1,4 +1,15 @@
 # Praktikum 15
+#### Ülesanne 1
+
+![Screenshot 2024-12-21 202819](https://github.com/user-attachments/assets/6f1ef493-edac-4388-a165-37fc2d33e770)
+
+#### Ülesanne 2
+
+![Screenshot 2024-12-25 181753](https://github.com/user-attachments/assets/b3c9d91d-8257-43eb-b364-1d67d0139ac0)
+
+#### Ülesanne 3
+
+Kui kasutaja kaust on järjekorras enne, siis käivitatakse fail, mis on kasutaja kaustas.
 
 #### Ülesanne 4
 
